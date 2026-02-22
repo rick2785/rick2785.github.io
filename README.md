@@ -1,13 +1,7 @@
 # rick2785.github.io
 Static website
 
-{
-  "applinks": {
-    "details": [
-      {
-        "appID": "com.rickeyHrabowskie.Aulete",
-        "paths": [ "/spotify-callback" ]
-      }
-    ]
-  }
-}
+<script>
+const params = window.location.search;
+window.location = "auleteapp://music" + params;
+</script>
