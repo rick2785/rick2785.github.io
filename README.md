@@ -1,7 +1,19 @@
 # rick2785.github.io
 Static website
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Spotify Auth</title>
 <script>
-const params = window.location.search;
-window.location = "auleteapp://music" + params;
+window.onload = function() {
+  const params = window.location.search;
+  window.location.replace("auleteapp://callback" + params);
+};
 </script>
+</head>
+<body>
+Signing you in…
+</body>
+</html>
