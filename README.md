@@ -9,7 +9,7 @@ Static website
 <script>
 window.onload = function() {
   const params = window.location.search;
-  window.location.replace("auleteapp://callback" + params);
+  window.location.replace("auleteapp://music" + params);
 };
 </script>
 </head>
